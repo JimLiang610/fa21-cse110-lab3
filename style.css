@@ -1,0 +1,10 @@
+body {
+    /* apply background color to page to make text pop more */
+    background-color: burlywood;
+}
+
+h1 {
+    /* color for the heading of the meeting notes*/
+    color: rgb(255, 0, 0);
+    background-color: black;
+}
