@@ -64,3 +64,9 @@ ol {
     border-width: 2px;
     border-radius: 2px;
 }
+/* added more css style for sub headers */
+.text {
+    color:rgb(141, 13, 41);
+    text-decoration: underline rgb(187, 50, 205);
+    text-align: center;
+}
