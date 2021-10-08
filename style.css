@@ -61,7 +61,7 @@ ol {
 /* display list of names on one line */
 li {
     display: inline;
-    
+
     /* relative position to attendence list */
     position: relative;
     right: 30px;
@@ -94,3 +94,12 @@ li {
     display: block;
 }
 
+/* mouse on reddit link */
+a:hover {
+  color: rgb(123, 255, 105);
+}
+
+/* clicked reddit link */
+a:active {
+  color: rgb(255, 0, 234);
+}
