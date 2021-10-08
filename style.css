@@ -5,15 +5,23 @@ body {
 
 h1 {
     /* color for the heading of the meeting notes*/
-    color: rgb(255, 0, 0);
-    background-color: black;
+    color: rgb(4, 0, 255);
     /* added absolute units for title */
     font-size: 90px;
+
+    /* added sizing for the header */
+    height: 0%;
+    width: 0%;
+    max-width: 0%;
+    min-width: 0%;
 }
 
 h2 {
     /* added absolute units for the date */
     font-size: 70px;
+    /* color for topic */
+    color: rgb(255, 0, 0);
+    background-color: black;
 }
 
 h3 {
@@ -78,3 +86,10 @@ li {
     /* block for sub headers to take up full width */
     display: block;
 }
+/*
+.div1 {
+    height: 0%;
+    width: 0%;
+    max-width: 0%;
+    min-width: 0%;
+}*/
