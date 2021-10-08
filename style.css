@@ -43,6 +43,9 @@ p {
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px; 
+
+    /* added position for general text */
+    position: static;
 }
 
 span1 {
@@ -58,6 +61,10 @@ ol {
 /* display list of names on one line */
 li {
     display: inline;
+    
+    /* relative position to attendence list */
+    position: relative;
+    right: 30px;
 }
 
 /* box model for section headers */
@@ -86,10 +93,4 @@ li {
     /* block for sub headers to take up full width */
     display: block;
 }
-/*
-.div1 {
-    height: 0%;
-    width: 0%;
-    max-width: 0%;
-    min-width: 0%;
-}*/
+
