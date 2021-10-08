@@ -7,4 +7,30 @@ h1 {
     /* color for the heading of the meeting notes*/
     color: rgb(255, 0, 0);
     background-color: black;
+    /* added absolute units for title */
+    font-size: 90px;
+}
+
+h2 {
+    /* added absolute units for the date */
+    font-size: 70px;
+}
+
+h3 {
+    /* added absolute units for the attendence list */
+    font-size: 30px;
+}
+
+p {
+    /* added relative units for the text */
+    font-size: 1em;
+}
+span1 {
+    /*added relative units for the names in attendence list */
+    font-size: 1.5em;
+}
+
+ol {
+    /* added relative units */
+    font-size: 85%;
 }
