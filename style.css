@@ -47,6 +47,11 @@ ol {
     font-size: 85%;
 }
 
+/* display list of names on one line */
+li {
+    display: inline;
+}
+
 /* box model for section headers */
 .subheader-text {
     margin-top: 5px;
@@ -69,4 +74,7 @@ ol {
     color:rgb(141, 13, 41);
     text-decoration: underline rgb(187, 50, 205);
     text-align: center;
+
+    /* block for sub headers to take up full width */
+    display: block;
 }
