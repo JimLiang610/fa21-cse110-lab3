@@ -24,7 +24,19 @@ h3 {
 p {
     /* added relative units for the text */
     font-size: 1em;
+
+    /* box model for general text */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px; 
+    margin-right: 5px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
 }
+
 span1 {
     /*added relative units for the names in attendence list */
     font-size: 1.5em;
@@ -33,4 +45,22 @@ span1 {
 ol {
     /* added relative units */
     font-size: 85%;
+}
+
+/* box model for section headers */
+.subheader-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px; 
+    margin-right: 5px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+
+    border-style: double;
+    border-color: blue;
+    border-width: 2px;
+    border-radius: 2px;
 }
