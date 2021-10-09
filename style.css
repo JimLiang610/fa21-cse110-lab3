@@ -169,3 +169,8 @@ a:active {
 a[target] {
     background-color: aqua;
 }
+
+/* selector list to highlight all headers*/
+h1, h2, h3 { 
+    background-color: white; 
+}
