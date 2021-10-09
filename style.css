@@ -175,6 +175,26 @@ h1, h2, h3 {
     background-color: white; 
 }
 
+/* descendant combinator */
 div1 p1 {
-    color: burlywood;
+    color: red;
+}
+
+/* child combinator */
+div2 > p2 {
+    background-color: blueviolet;
+}
+
+/* general sibling combinator */
+div3 ~ p3 {
+    background-color: gold;
+}
+
+/* adjacent sibling combinator */
+div4 + p4 {
+    background-color: goldenrod;
+}
+/* combining two selectors */
+div5.p5 {
+    font-size: 200px;
 }
