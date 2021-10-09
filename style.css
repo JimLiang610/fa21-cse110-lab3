@@ -103,3 +103,36 @@ a:hover {
 a:active {
   color: rgb(255, 0, 234);
 }
+
+.flex-container {
+    /* flex box attributes */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: slateblue;
+
+    grid-template-columns: 10px;
+    grid-template-rows: 100px;
+}
+
+.flex-container > .item {
+    /* flexbox children */
+    background-color: black;
+    color: white;
+}
+
+.grid {
+    /* grid attributes */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px;
+    justify-content: space-evenly;
+}
+
+.grid > .child {
+    /* grid children */
+    background-color: green;
+    text-align: center;
+    font-size: 100px;
+}
