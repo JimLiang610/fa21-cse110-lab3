@@ -95,6 +95,7 @@ li {
     display: block;
 }
 
+/* Pseudo-class Selector */
 /* mouse on reddit link */
 a:hover {
   color: rgb(123, 255, 105);
