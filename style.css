@@ -186,15 +186,15 @@ div2 > p2 {
 }
 
 /* general sibling combinator */
-div3 ~ p3 {
-    background-color: gold;
+ul ~ p {
+    text-transform: lowercase;
 }
 
 /* adjacent sibling combinator */
-div4 + p4 {
+ul + p {
     background-color: goldenrod;
 }
 /* combining two selectors */
-div5.p5 {
-    font-size: 200px;
+ul.p{
+    font-size: 100px;
 }
