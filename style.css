@@ -157,3 +157,8 @@ a:active {
 #red-text {
     color: red;
 }
+
+/* universal selector to center allign everything*/
+*{
+    text-align: center;
+}
