@@ -136,3 +136,14 @@ a:active {
     text-align: center;
     font-size: 100px;
 }
+
+/* fonts for certain text */
+.f1 {
+    font-family:  "Times New Roman", Times, serif;
+}
+.f2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.f3 {
+    font-family: 'Roboto';
+}
