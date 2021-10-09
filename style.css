@@ -147,3 +147,8 @@ a:active {
 .f3 {
     font-family: 'Roboto'; 
 }
+
+/* class selector */
+.bluehighlight {
+    background-color: blue;
+}
