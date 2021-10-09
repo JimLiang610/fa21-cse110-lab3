@@ -3,6 +3,7 @@ body {
     background-color: burlywood;
 }
 
+/* element selector for h1 */
 h1 {
     /* color for the heading of the meeting notes*/
     color: rgb(4, 0, 255);
@@ -162,3 +163,4 @@ a:active {
 *{
     text-align: center;
 }
+
